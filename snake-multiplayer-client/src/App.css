@@ -1,0 +1,242 @@
+body {
+	overflow: hidden;
+}
+
+.modal {
+	background-color: rgb(32, 32, 32);
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	border-radius: 20px;
+	top: 350px;
+	left: 650px;
+	right: 650px;
+	bottom: 350px;
+	outline: none;
+	padding: 50px;
+	align-items: center;
+}
+
+.modal h2 {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0px;
+	margin-top: 5px;
+	font-size: 30px;
+	color: white;
+}
+
+.modal p {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 6px;
+	color: white;
+	font-size: 18px;
+}
+
+.modalOverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.555);
+}
+
+.modal button {
+	display: flex;
+	outline: none;
+	justify-content: center;
+	box-shadow: 0px 0px 20px -10px #3e7327c9;
+	background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color: #77b55a;
+	border-radius: 12px;
+	border: 1px solid #4b8f29;
+	color: #ffffff;
+	align-items: center;
+	text-align: center;
+	text-shadow: 0px 1px 0px #5b8a3c;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px;
+	width: 70px;
+	height: 50px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.modal button:hover {
+	box-shadow: 0px 0px 20px -7px #437c2ad8;
+	background: linear-gradient(to bottom, #7ec060 5%, #79bd57 100%);
+	background-color: #7ec060;
+	transition: 0.5s;
+}
+
+.gameOverModal {
+	background-color: #ffffff00;
+	display: flex;
+	position: absolute;
+	border-radius: 20px;
+	top: 50%;
+	left: 0px;
+	right: 0px;
+	bottom: 50%;
+	outline: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.gameOverModal h1 {
+	color: #ffffff;
+	text-shadow: 0px 0px 2.5px #ffffff;
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 70px;
+	margin-bottom: 120px;
+}
+
+.keyCap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	background-color: rgb(37, 37, 37);
+	height: 100%;
+	outline: none;
+}
+
+.mainTitle {
+	font-family: 'Press Start 2P', cursive;
+	margin: 2%;
+	font-weight: normal;
+	color: rgb(231, 231, 231);
+}
+
+.map {
+	border: 1px solid rgb(80, 80, 80);
+	background-color: rgb(32, 32, 32);
+}
+
+.startButton {
+	display: inline-block;
+	box-shadow: 0px 0px 20px -8px #3e7327c9;
+	background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color: #77b55a;
+	border-radius: 12px;
+	border: 1px solid #4b8f29;
+	color: #ffffff;
+	text-align: center;
+	text-shadow: 0px 1px 0px #5b8a3c;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5vh;
+}
+
+.startButton:focus {
+	outline: none;
+	border: 1px solid #01e90c;
+	transition: 0.5s;
+}
+
+.startButton:hover {
+	box-shadow: 0px 0px 20px -7px #437c2ad8;
+	background: linear-gradient(to bottom, #7ec060 5%, #79bd57 100%);
+	background-color: #7ec060;
+	transition: 0.5s;
+}
+
+.startButton span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.startButton span:after {
+	content: '\f138';
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	font-weight: 900;
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+	align-items: center;
+	text-align: center;
+}
+
+.startButton:hover span {
+	padding-right: 25px;
+}
+
+.startButton:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.restartButton {
+	display: inline-block;
+	box-shadow: 0px 0px 20px -7px #3e7327c9;
+	background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color: #77b55a;
+	border-radius: 12px;
+	border: 1px solid #4b8f29;
+	color: #ffffff;
+	text-align: center;
+	text-shadow: 0px 1px 0px #5b8a3c;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5vh;
+}
+
+.restartButton:focus {
+	outline: none;
+	border: 1px solid #01e90c;
+	transition: 0.5s;
+}
+
+.restartButton:hover {
+	box-shadow: 0px 0px 20px -7px #437c2ad8;
+	background: linear-gradient(to bottom, #7ec060 5%, #79bd57 100%);
+	background-color: #7ec060;
+	transition: 0.5s;
+}
+
+.restartButton span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.restartButton span:after {
+	content: '\f2f1';
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	font-weight: 900;
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+	align-items: center;
+	text-align: center;
+}
+
+.restartButton:hover span {
+	padding-right: 25px;
+}
+
+.restartButton:hover span:after {
+	opacity: 1;
+	right: 0;
+}
