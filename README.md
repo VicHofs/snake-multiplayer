@@ -1,6 +1,8 @@
 # Snake Multiplayer
+<div style="align-content: center">
+	<img src="https://github.com/VicHofs/snake-multiplayer/blob/master/snake%20introduction.gif" />
+</div>
 <p align="center">
-	
   <a href="https://www.linkedin.com/in/victor-hofstetter/">
     <img alt="Made by VicHofs" src="https://img.shields.io/badge/made%20by-VicHofs-%2304D361">
   </a>
