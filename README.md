@@ -1,5 +1,5 @@
 # Snake Multiplayer
-<div style="align-content: center">
+<div display="flex" align="center">
 	<img src="https://github.com/VicHofs/snake-multiplayer/blob/master/snake%20introduction.gif" />
 </div>
 <p align="center">
