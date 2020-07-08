@@ -30,10 +30,10 @@ This project was developed with the following technologies:
 
 ## 📋 Layout
 <h2> -Menu/Log in screen</h2>
-<img src="https://raw.githubusercontent.com/VicHofs/snake-multiplayer/master/menu%20snake.png?token=ANUWHYUZUH2RTRWZIQUIIIK7AXQIU" align="center" height=600 width=650>
+<img src="https://github.com/VicHofs/snake-multiplayer/blob/master/menu%20snake.png?raw=true" align="center" height=600 width=650>
 
 <h2> -Game layout</h2>
-<img src="https://raw.githubusercontent.com/VicHofs/snake-multiplayer/master/snake%20gameplay.png?token=ANUWHYT257MANWY65E2NX527AXSNO" align="center" height=600 width=650>
+<img src="https://github.com/VicHofs/snake-multiplayer/blob/master/snake%20gameplay.png?raw=true" align="center" height=600 width=650>
 
 ## 📜 License
 
