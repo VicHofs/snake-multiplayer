@@ -1,0 +1,59 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	background: fixed;
+	position: absolute;
+	background-color: rgb(32, 32, 32);
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	color: white;
+	font-family: 'Press Start 2P', sans-serif;
+}
+
+p {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+.inactive {
+	display: inline-block;
+	border-radius: 35px;
+	text-align: center;
+	width: 65px;
+	height: 65px;
+	transition: all 0.5s;
+	cursor: default;
+	margin: 5vh;
+	opacity: 50%;
+}
+
+.inactive:focus {
+	outline: none;
+}
+
+.active {
+	display: inline-block;
+	border-radius: 35px;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5vh;
+}
+
+.active:focus {
+	outline: none;
+	transition: 0.5s;
+}
+
+.active:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
