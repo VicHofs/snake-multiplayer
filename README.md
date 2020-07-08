@@ -26,12 +26,14 @@ This project was developed with the following technologies:
 - [React][reactjs]
 - [Insomnia][insomnia]
 
+
+
 ## 📋 Layout
+<h2> -Menu/Log in screen</h2>
+<img src="https://raw.githubusercontent.com/VicHofs/snake-multiplayer/master/menu%20snake.png?token=ANUWHYUZUH2RTRWZIQUIIIK7AXQIU" align="center" height=600 width=650>
 
-Menu/Log in screen
-
-
-Game layout
+<h2> -Game layout</h2>
+<img src="https://raw.githubusercontent.com/VicHofs/snake-multiplayer/master/snake%20gameplay.png?token=ANUWHYT257MANWY65E2NX527AXSNO" align="center" height=600 width=650>
 
 ## 📜 License
 
